@@ -5,7 +5,7 @@ import { FaEye, FaGithub } from "react-icons/fa";
 // eslint-disable-next-line react/prop-types
 const ProjectCard = ({image, name, liveLink, gitLink}) => {
     return (
-        <div className="group w-96 h-64 [perspective:1000px]">
+        <div className="group w-full h-64 [perspective:1000px]">
             <div className="relative h-full w-full rounded-xl shadow-xl [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)] transition-all duration-500">
                 <div className="absolute inset-0">
                     <img className="w-full h-full rounded-lg shadow-xl shadow-black/40" src={image} alt="" />

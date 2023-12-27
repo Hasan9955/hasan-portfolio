@@ -7,7 +7,8 @@ const Banner = () => {
                 <h1>HI, I am </h1>
                 <p>Hasan Bin Ali.</p>
                 <p>A Frontend Developer.</p>
-                <button className="btn btn-outline bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 border-none text-white">Download CV</button>
+                
+                <button className="btn btn-outline bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 border-none text-white"><a download={true} href="https://drive.google.com/file/d/1bpqdp9BSDh23P0omzbiJfhNBNABp5UKI/view?usp=sharing">Download CV</a></button>
             </div>
             <img className="h-80 w-80 rounded-full bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 p-1" src="https://i.ibb.co/ZfLq3pC/IMG-2f157.jpg" alt="hasan" />
         </div>
