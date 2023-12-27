@@ -38,10 +38,11 @@ const Footer = () => {
                 <p>Copyright © 2023 - All right reserved</p>
             </aside>
             <nav className="text-3xl grid-flow-col gap-4 md:place-self-center md:justify-self-end">
-                <a><FaLinkedin className="text-blue-600"></FaLinkedin>
+                <a href=""></a>
+                <a href="https://www.linkedin.com/in/hasan-bin-ali-303b82299/"><FaLinkedin className="text-blue-600"></FaLinkedin>
                 </a>
-                <a><FaGithub></FaGithub></a>
-                <a><FaFacebook className="text-blue-600"></FaFacebook></a>
+                <a href="https://github.com/Hasan9955"><FaGithub></FaGithub></a>
+                <a href="https://www.facebook.com/hasan.binali.311"><FaFacebook className="text-blue-600"></FaFacebook></a>
             </nav>
         </footer>
     );

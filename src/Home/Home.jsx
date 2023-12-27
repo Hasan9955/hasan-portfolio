@@ -1,5 +1,8 @@
+import Banner from "./Banner";
 import Footer from "./Footer";
 import Navbar from "./Navbar";
+import Projects from "./Projects";
+import Skills from "./Skills";
 
 
 const Home = () => {
@@ -10,11 +13,13 @@ const Home = () => {
         }
     };
     return (
-        <div onMouseMove={handleMouseMove}>
+        <div onMouseMove={handleMouseMove} className=" ">
             <div className="cursor"></div>
             <Navbar></Navbar>
-            {/* <a href="https://sites.google.com/view/hasan1811?usp=sharing" download className="flex justify-center text-blue-600 underline font-bold text-5xl">Download</a> */}
-            <Footer></Footer>
+            <Banner></Banner>
+            <Skills></Skills>
+            <Projects></Projects>
+             <Footer></Footer>
         </div>
     );
 };
